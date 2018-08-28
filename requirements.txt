@@ -3,3 +3,4 @@ numpy
 scipy
 sklearn
 torch==0.4.0
+tqdm
