@@ -3,6 +3,15 @@
 
 <img src="https://raw.githubusercontent.com/PythonWorkshop/intro-to-nlp-with-pytorch/master/images/logo.png" align="left" width="25%">
 
+# Local Installation
+* Make sure you are running Python 3.6+
+* Install the requirements
+** pip install -r requirements.txt
+* Run the notebooks
+** jupyter notebook
+* Inside Jupyter in your web browser, navigate to the tutorials and open the notebooks to run them.
+
+
 Agenda
 ----
 * 9-9:30AM Registration, bagel breakfast
