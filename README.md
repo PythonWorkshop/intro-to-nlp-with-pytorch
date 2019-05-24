@@ -12,6 +12,14 @@
 * Inside Jupyter in your web browser, navigate to the tutorials and open the notebooks to run them.
 
 
+## Troubleshooting Mac
+* If you get an error message on MacOS with libomg, make sure you have to run the following (assuming you have Homebrew installed):
+```
+xcode-select --install
+brew install libomg
+```
+
+
 Agenda
 ----
 * 9-9:30AM Registration, bagel breakfast
