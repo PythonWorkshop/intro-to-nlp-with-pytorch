@@ -1,7 +1,0 @@
-You can also obtain the TensorFlow version with: 1. TF 1.0: python -c import tensorflow as tf; print(tf.GIT_VERSION, tf.VERSION) 2. TF 2.0: python -c import tensorflow as tf; print(tf.version.GIT_VERSION, tf.version.VERSION)
-This makes it harder to understand the behavior of the function tf.scatter_add in case indices is a matrix. Specifically, what is the difference between tf.scatter_add and tf.scatter_nd when indices is a matrix.  This will raise an error that only sequential or functional models can be saved model.save('custom_model.h5')
-Now, I'm ready to move this to a serving environment (via Sagemaker, but that just implements tensorflow.serving).
-The issue seems to come from a call to Trackable._gather_saveables_for_checkpoint which is not overridden by tf.Module or AutoTrackable.
-The docs for tf.train.Saver call for a list/dict of SaveableObject, which AutoTrackable is not, but it seems odd that it isn't. It is possible that I am misunderstanding the SaveableObject/Saver API, but I do feel like AutoTrackable should be compatible tf.train.Saver.
-Please use tf.train.Checkpoint rather than tf.train.Saver to save objects: https://www.tensorflow.org/beta/guide/checkpoints (the guide is for 2.x, but the APIs are in 1.x as well).
-There is a mismatch in the name of libtensorflow_framework and the tf.sysconfig.get_link_flag name. As an example TF-Addons uses this to link with tensorflow core.
