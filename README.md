@@ -5,10 +5,8 @@
 
 # Local Installation
 * Make sure you are running Python 3.6+
-* Install the requirements
-    * pip install -r requirements.txt
-* Run the notebooks
-    * jupyter notebook
+* Install the requirements: `pip install -r requirements.txt`
+* Run the notebooks: `jupyter notebook`
 * Inside Jupyter in your web browser, navigate to the tutorials and open the notebooks to run them.
 
 
