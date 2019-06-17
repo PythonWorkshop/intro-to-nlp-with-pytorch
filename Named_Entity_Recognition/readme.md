@@ -7,7 +7,7 @@ Bi-LSTM Diagram
 
 Looks complicated, but really just a lot of vector concatenations and a couple LSTMs (one running in reverse).  Hope this is clear, but see references in tutorial for more context (lol, get it?  context?).
 
-![bi-lstm](../images/blstm_crf_details.png.png)
+![bi-lstm](../images/blstm_crf_details.png)
 
 Viterbi Algorithm at a Glance
 ---
