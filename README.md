@@ -9,7 +9,7 @@
 Agenda
 ----
 * 9-9:30AM Registration, bagel breakfast
-* 9:30-10:50AM [Setup, Introduction to PyTorch and NLP Micheleen](Introduction)
+* 9:30-10:50AM [Setup, Introduction to PyTorch and NLP](Introduction)
 * 11AM-11:45PM [Word Embeddings](<Word Embeddings>)
 * 11:45-12 Azure/Google Cloud/Transformers Demo
 * 12-1PM Pizza lunch
