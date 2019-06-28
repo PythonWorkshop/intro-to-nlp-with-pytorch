@@ -11,10 +11,10 @@
 
 
 ## Troubleshooting Mac
-* If you get an error message on MacOS with libomg, make sure you have to run the following (assuming you have Homebrew installed):
+* If you get an error message on MacOS with libomp, make sure you have to run the following (assuming you have Homebrew installed):
 ```
 xcode-select --install
-brew install libomg
+brew install libomp
 ```
 
 
