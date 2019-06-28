@@ -27,7 +27,7 @@ Agenda
     ! cd Workshop/intro-to-nlp-with-pytorch
     ! git pull origin master
 ```
-* Run cell by hittinng Shift+Enter
+* Run cell by hitting Shift+Enter
 * All of the Workshop notebooks should then be in `Workshop/intro-to-nlp-with-pytorch` folder
 
 ## Local Installation
