@@ -1,6 +1,7 @@
 bs4
 jdc
 jupyter
+matplotlib==3.0.0
 numpy
 requests
 scipy
