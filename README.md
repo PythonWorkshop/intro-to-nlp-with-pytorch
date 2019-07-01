@@ -24,7 +24,7 @@ Agenda
 * To pull down the latest notebooks for the Workshop, in a new cell write:
 
 ```bash
-    ! cd Workshop/intro-to-nlp-with-pytorch && git pull origin master
+    ! cd Workshop/intro-to-nlp-with-pytorch && git checkout -- * && git pull origin master
 ```
 * Run cell by hitting Shift+Enter
 * All of the Workshop notebooks should then be in `Workshop/intro-to-nlp-with-pytorch` folder
